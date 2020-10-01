@@ -6,8 +6,7 @@ import random
 print("\n\n----------------------------------------")
 print("         WELCOME TO HANGMAN")
 print("----------------------------------------")
-print("       Press enter to continue")
-input()
+input("       Press enter to continue")
 
 print("Instructions :")
 print(">> From the choice of words given, computer will choose random any word.\n   Your Job is guess the selected word.\n   After every guessing, some characters will be displayed!...\n   Once all chacters gets displayed, You Lose!\n\n             BEST OF LUCK!!")
@@ -18,7 +17,7 @@ name = input("\nPlease enter the player name : ")
 
 words = ["pewdiepie", "python", "universe", "github", "helloworld"]  # Currently stored words
 
-word = random.choice(words) # Choice random selection
+word = random.choice(words) # choose a random word from stored words
 print("OK " + name + ", get ready...\n")
 print("\n--------The game begins!!--------\n")
 
