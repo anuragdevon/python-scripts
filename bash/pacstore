@@ -1,0 +1,3 @@
+#!/bin/bash
+OUTPUT=~/docs/archrice/Package.txt
+pacman -Qe >> $OUTPUT

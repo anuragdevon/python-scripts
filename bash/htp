@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo create_ap wlo1 eno1 devonL 123456789
+

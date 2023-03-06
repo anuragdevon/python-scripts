@@ -1,0 +1,6 @@
+#!/bin/bash
+teatimer() {
+         sleep $1;
+         mplayer "$HOME/music/<sound-to-play.mp3>"  & notify-send '!! Coffee Time - wake up !!';
+         exit
+}
